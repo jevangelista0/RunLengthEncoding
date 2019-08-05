@@ -10,4 +10,4 @@ Try Me:
  - cd RunLengthEncoding
  - g++ -std=c++11 RunLengthEncodeDecode.cpp
  - a.exe Image1.txt
- - (You can then pick any method from 1-4. Either w/ 0 no wrap, no 0 no wrap, w/ 0 wrap, no 0 wrap) y to continue n to stop.
+ - (You can then pick any method from 1-4. Either w/ 0 no wrap, no 0 no wrap, w/ 0 wrap, no 0 wrap) Enter y to continue n to stop.
