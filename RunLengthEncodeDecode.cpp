@@ -276,6 +276,7 @@ void dMethodFour(ifstream& encode, ofstream& decode){ // no 0 w
 	// follow instructions until before out of bounds and cut off to new line
 	// continue until the length is filled
 	// check for missing 0s after till we match total row and column
+	cout << "https://github.com/jevangelista0\n";
 	int r = 0, c = 0, currR = 0, currC = 0, pixel = 0, length = 0, runIndex = 0;
 	decode << numR << " " << numC << " " << minVal << " " << maxVal << "\n";
 
@@ -334,7 +335,7 @@ int main(int argc, char** argv){
 	string fileName = argv[1]; // get filename
 	fileName = fileName.substr(0, fileName.find('.')); // get sub string without extension
 
-	cout << "program asks the user if he/she want to use another method to compress the file: (‘Y’ for yes, ‘N’ for no.) ";
+	cout << "program asks the user if he/she want to use another method to compress the file: (â€˜Yâ€™ for yes, â€˜Nâ€™ for no.) ";
 	cin >> yahOrNah;
 	yahOrNah = (char)tolower(yahOrNah);
 
@@ -465,7 +466,7 @@ int main(int argc, char** argv){
 			cout << e;
 		}
 
-		cout << "program asks the user if he/she want to use another method to compress the file: (‘Y’ for yes, ‘N’ for no.) ";
+		cout << "program asks the user if he/she want to use another method to compress the file: (â€˜Yâ€™ for yes, â€˜Nâ€™ for no.) ";
 		cin >> yahOrNah;
 		yahOrNah = (char)tolower(yahOrNah);
 	}
